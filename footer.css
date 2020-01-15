@@ -10,7 +10,7 @@ footer {
     padding-left: 10px;
  }
 #footer h1, hr{
-  color: blue;
+  color: rgb(72, 108, 173);
   text-align: left;
 }
 #footer div {
