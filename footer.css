@@ -1,0 +1,116 @@
+footer {
+    /* display: table; */
+    width: 100%;
+    /* padding: 1.25em; */
+ 
+    margin: 0;
+    border: 0.062em solid #151515;
+    background: #080505;
+    color:  #f5f1f1;
+    padding-left: 10px;
+ }
+#footer h1, hr{
+  color: blue;
+  text-align: left;
+}
+#footer div {
+  /* display: flex; */
+    /* padding: 1em; */
+    text-align: left;
+    align-items: left;
+    /* margin-right: 10px; */
+    
+}
+
+#footer div h2 {
+    text-align: center;
+ } 
+
+
+
+ @media  screen
+  and (min-device-width : 320px)
+  and (max-device-width : 480px) {
+
+  #footer {
+    /* display: table; */
+    width: 100%;
+    /* padding: 1.25em; */
+ 
+    margin: 0;
+    border: 0.062em solid #151515;
+    background-color: #080505;
+    color:  #f5f1f1;
+ }
+#footer h1, hr{
+  color: blue;
+  text-align: left;
+  font-size: 15px;
+}
+p,ul{
+  font-size: 12px;
+}
+hr{
+  width: 100%;
+   /* float: left; */
+   align-self:left;
+}
+/* .f1,.f2,.f3{
+    color:white;
+    float:left;
+     text-align:center !important;
+      width: 33.33%;
+      padding: 10px;
+      height: auto;
+} */
+#footer div {
+  /* display: flex; */
+    /* padding: 5px; */
+    /* font */
+    text-align: left;
+    align-items: left;
+    /* margin-right: 5px; */
+    
+}
+/* .f1{
+    width: 100%;
+    text-align: center;
+} */
+
+}
+
+
+@media screen and (min-width: 600px) {
+    .footer {
+        display: grid;
+        grid-gap: 0;
+        margin-left: 0;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        grid-template-areas:
+        "f1 f2 f3";
+         /* "left_grid right_grid"; */
+    }
+        .f1{
+            /* display: flex;
+            justify-content: center;
+            align-items: center; */
+            grid-area: f1;
+            margin-left: 50px;
+           
+        }
+        .f2{
+            /* display: flex;
+            justify-content: left; */
+            grid-area: f2;
+            /* margin-left: 200px; */
+        }
+        .f3 {
+            /* display: flex;
+            justify-content: right; */
+            grid-area: f3;
+            margin-right: 100px;
+        }
+
+
+      }
