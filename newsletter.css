@@ -2,7 +2,7 @@
 
 .News{
     margin-top: 0;
-    background:linear-gradient(to right, rgb(151, 151, 221) 40%, rgb(111, 65, 172) 60%);
+     background:linear-gradient(to right, rgb(90, 90, 155) 40%, rgb(77, 63, 201) 60%);
     box-shadow: 0 1px 6px rgba(0, 0, 0, 0.12), 0 1px 4px rgba(0, 0, 0, 0.24);
     /* display: flex;
     justify-content: center;
@@ -17,7 +17,7 @@
   
   #subscribe{
    
-    background:linear-gradient(to right, rgb(151, 151, 221) 40%, rgb(111, 65, 172) 60%);
+    background:linear-gradient(to right, rgb(73, 73, 128) 40%, rgb(77, 63, 201) 60%);
       border: 1px solid black;
       border-radius: 50px;
       padding: 12px 15px;
